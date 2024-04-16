@@ -9,7 +9,7 @@ a=gmd(model,"blupg")
 #print(a,n=150)
 #Compute the MGIDI index
 #cor(a, use = "complete.obs")
-aku <-mgidi(model)
+aku <- mgidi(model)
 mgidi_index <- mgidi(model)
 plot(mgidi_index)
 #plot the contribution of each factor on the MGIDI index
